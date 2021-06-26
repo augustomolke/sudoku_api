@@ -30,6 +30,6 @@ api.post("/", async (request, response) => {
   response.send(solution);
 });
 
-api.listen(3000, () => {
+api.listen(process.env.PORT || 3000, () => {
   console.log("Servidor de pé");
 });
