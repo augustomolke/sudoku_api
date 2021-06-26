@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/augustomolke/sudoku_api/issues"
   },
-  "homepage": "https://github.com/augustomolke/sudoku_api#readme"
+  "homepage": "https://github.com/augustomolke/sudoku_api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "glpk.js": "git+https://github.com/jvail/glpk.js.git"
+  }
 }
